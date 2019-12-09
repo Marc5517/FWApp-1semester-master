@@ -26,5 +26,11 @@ namespace FWApp
         {
             this.InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.NavigateToType(typeof(Kontakt), null, new FrameNavigationOptions());
+            
+        }
     }
 }
